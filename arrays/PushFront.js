@@ -1,4 +1,4 @@
-function pushfront(arr, value){
+function pushfront(value, arr){
     arr[arr.length] = value;
 	for(var i= arr.length-1; i>0; i--){
 		var temp = arr[i];

@@ -1,4 +1,4 @@
-function removeAt(arr, index){
+function removeAt(index, arr){
 	for(var i= index; i < arr.length-1; i++){
       console.log(i);
 		var temp = arr[i];
